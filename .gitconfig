@@ -1,0 +1,7 @@
+[user]
+	name = Gerardo Moad
+	email = gerardo@gerardomoad.com
+[url "git@github.com:"]
+	insteadOf = git://github.com/
+[push]
+	default = simple
