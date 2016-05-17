@@ -2,6 +2,10 @@ set viminfo^=% " for saving buffers, i think it's not working
 set hidden " for keeping undo history for hidden buffers
 
 set nocompatible
+set viminfo^=% " for saving buffers, i think it's not working
+set hidden " for keeping undo history for hidden buffers
+
+set nocompatible
 set modeline
 set modelines=5
 
