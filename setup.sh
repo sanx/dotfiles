@@ -2,7 +2,7 @@
 
 CWD=`pwd`;
 
-for file in `ls -lad .*`;
+for file in `ls -lad .* | grep -v -E '(\.swp|~)$'`;
 do
     if [[ "x." == "x$file" || "x.." == "x$file" || "x.git" == "x$file" ]];
     then
