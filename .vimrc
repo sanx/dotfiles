@@ -50,7 +50,8 @@ Plugin 'gmarik/Vundle.vim'
 " Avoid a name conflict with L9
 "Plugin 'user/L9', {'name': 'newL9'}
 
-Plugin 'https://github.com/vim-scripts/ctrlp.vim'
+"Plugin 'https://github.com/vim-scripts/ctrlp.vim'
+Plugin 'https://github.com/ctrlpvim/ctrlp.vim'
 Plugin 'https://github.com/vim-scripts/The-NERD-tree'
 "Plugin 'https://github.com/vim-scripts/minibufexpl.vim'
 Plugin 'https://github.com/fholgado/minibufexpl.vim'
