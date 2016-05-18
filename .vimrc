@@ -21,6 +21,8 @@ set shiftwidth=4
 set tabstop=4
 set softtabstop=4
 
+set hlsearch
+
 " BEGIN from Vundle
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -97,4 +99,4 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_use_caching = 0
 " END for Ctrl-P
 
-source ~/.vim/cscope_maps.vim
+"source ~/.vim/cscope_maps.vim
