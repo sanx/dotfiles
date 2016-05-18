@@ -86,4 +86,15 @@ map <Leader>mbc :MBEClose<cr>
 map <Leader>mbt :MBEToggle<cr>
 " END for MiniBufferExplorer
 
+" BEGIN for Ctrl-P
+" Set no max file limit
+let g:ctrlp_max_files = 0
+" don't hide .dot .filez
+let g:ctrlp_show_hidden = 1
+" Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
+let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+" ag is fast enough that CtrlP doesn't need to cache
+let g:ctrlp_use_caching = 0
+" END for Ctrl-P
+
 source ~/.vim/cscope_maps.vim
