@@ -1,3 +1,4 @@
+set t_Co=256
 set viminfo^=% " for saving buffers, i think it's not working
 set hidden " for keeping undo history for hidden buffers
 
@@ -24,6 +25,7 @@ set softtabstop=4
 set hlsearch
 set background=dark
 set colorcolumn=81
+highlight ColorColumn ctermbg=8
 
 
 " BEGIN from Vundle
@@ -78,7 +80,6 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " END from Vundle
 
-highlight ColorColumn ctermbg=7
 
 " BEGIN from minibufexplorer
 let g:miniBufExplMapWindowNavVim = 1 
