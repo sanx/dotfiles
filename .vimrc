@@ -78,10 +78,7 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " END from Vundle
 
-Bundle 'molokai'
-colorscheme molokai
-" The default red color column is obnoxius in terminals.
-"highlight ColorColumn ctermbg=8
+highlight ColorColumn ctermbg=7
 
 " BEGIN from minibufexplorer
 let g:miniBufExplMapWindowNavVim = 1 
@@ -107,4 +104,4 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_use_caching = 0
 " END for Ctrl-P
 
-source ~/.vim/cscope_maps.vim
+"source ~/.vim/cscope_maps.vim
