@@ -9,7 +9,7 @@ set nocompatible
 set modeline
 set modelines=5
 
-execute pathogen#infect()
+" execute pathogen#infect()
 
 set ruler
 "filetype plugin indent on
@@ -22,6 +22,9 @@ set tabstop=4
 set softtabstop=4
 
 set hlsearch
+set background=dark
+set colorcolumn=81
+
 
 " BEGIN from Vundle
 set nocompatible              " be iMproved, required
@@ -75,6 +78,11 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 " END from Vundle
 
+Bundle 'molokai'
+colorscheme molokai
+" The default red color column is obnoxius in terminals.
+"highlight ColorColumn ctermbg=8
+
 " BEGIN from minibufexplorer
 let g:miniBufExplMapWindowNavVim = 1 
 let g:miniBufExplMapWindowNavArrows = 1 
@@ -99,4 +107,4 @@ let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 let g:ctrlp_use_caching = 0
 " END for Ctrl-P
 
-"source ~/.vim/cscope_maps.vim
+source ~/.vim/cscope_maps.vim
